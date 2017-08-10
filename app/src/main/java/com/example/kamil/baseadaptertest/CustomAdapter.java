@@ -40,7 +40,7 @@ public class CustomAdapter extends BaseAdapter {
 
   @Override
   public View getView(int i, View view, ViewGroup viewGroup) {
-    view = inflter.inflate(R.layout.activity_gridview, null);
+    view = inflter.inflate(R.layout.single_gridview, null);
     ImageView icon = (ImageView) view.findViewById(R.id.icon);
     icon.setImageResource(animals[i]);
     return view;
